@@ -1,0 +1,39 @@
+ol,
+ul {
+    padding-left: 0;
+}
+
+.AppFrame {
+    border: solid 10px #00151F;
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--app-frame);
+    box-shadow: 0 2px 4px -2px var(--app-frame-shadow);
+    transition: 0.4s ease-in-out;
+}
+
+button,
+button:focus {
+    outline: 0;
+}
+
+button.trm-play-button {
+    border: 0;
+}
+
+.fancybox__thumbs {
+    display: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+

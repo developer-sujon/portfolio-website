@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Designer, Front-end Developer, wordpress-developer,Back-end Developer,developermukti">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Mukti">
+  <meta name="keywords" content="developermukti,website builder,web-designer, portfolio,ux,ui,graphic,design,branding,experience,iOS,product,manager,freelance,website">
+  <meta property="og:title" content="developermukti">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://developermukti.me">
+  <title>Developer Mukti-Full Stack Web Developer</title>
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="./css/plugins/bootstrap.min.css">
+  <!-- trueman light mode css -->
+  <link rel="stylesheet" href="./css/style-dark.css" id="trm-switch-style">
+</head>
+<body>
+  <!-- Messenger Chat plugin Code -->
+  <div id="fb-root"></div>
+
+  <!-- Your Chat plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "104879341954371");
+    chatbox.setAttribute("attribution", "biz_inbox");
+
+    window.fbAsyncInit = function() {
+      FB.init({
+        xfbml            : true,
+        version          : 'v12.0'
+      });
+    };
+
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+  
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+
+   <!-- jquery js -->
+   <script src="js/plugins/jquery.min.js"></script>
+   <script src="js/plugins/swup.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>
